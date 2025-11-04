@@ -20,19 +20,20 @@
     :root{
       --bg-red:#b71c1c;
       --accent-red:#d32f2f;
-      --light-blue:#d6f0ff;
+      --light-blue:#0d2c4d;
       --muted:#666;
       --container-w:900px;
     }
     html,body{height:100%;margin:0;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;}
 
-    /* water-drop red background simulated with repeating radial gradients */
+    /* water-drop red background simulated with bubbling effect */
     body{
       background-color:var(--bg-red);
       background-image:
-        radial-gradient(circle at 10% 20%, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.04) 10px, transparent 12px),
-        radial-gradient(circle at 80% 40%, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.03) 8px, transparent 10px),
-        radial-gradient(circle at 50% 80%, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.02) 12px, transparent 14px);
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,0.10) 0px, rgba(255,255,255,0.05) 12px, transparent 18px),
+        radial-gradient(circle at 75% 30%, rgba(255,255,255,0.08) 0px, rgba(255,255,255,0.04) 10px, transparent 16px),
+        radial-gradient(circle at 40% 85%, rgba(255,255,255,0.07) 0px, rgba(255,255,255,0.03) 14px, transparent 20px),
+        radial-gradient(circle at 60% 60%, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.03) 16px, transparent 22px);
       background-size:cover;
       display:flex;align-items:flex-start;justify-content:center;padding:6vh 16px 40px;
       color:#222;
@@ -50,7 +51,7 @@
     }
 
     .title-box{
-      margin:18px auto 12px;max-width:86%;padding:16px;border-radius:12px;background:linear-gradient(180deg,var(--light-blue),#e6f7ff);box-shadow:inset 0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(0,80,140,0.06);
+      margin:18px auto 12px;max-width:86%;padding:16px;border-radius:12px;background:linear-gradient(180deg,#0d2c4d,#16406b);box-shadow:inset 0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(0,80,140,0.06);
     }
     h1{margin:0;font-size:20px;font-weight:700;color:#003a63;letter-spacing:0.2px}
     .subtitle{margin:8px 0 0;font-size:13px;color:#284b60;font-weight:500}
@@ -95,4 +96,3 @@
 
 </body>
 </html>
-inde
